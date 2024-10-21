@@ -10,7 +10,7 @@ function createArticleElement(article) {
 
     // Article image
     const img = document.createElement('img');
-    img.src = article.urlToImage || 'https://via.placeholder.com/300x200.png?text=No+Image';
+    img.src = article.urlToImage || 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwingandaprayer.live%2F2018%2F07%2F16%2Fits-a-no-photo-day%2F&psig=AOvVaw3hqPSKQ2oTUCrcSs_6XFYF&ust=1729576091284000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiT3pbjnokDFQAAAAAdAAAAABAE';
     img.alt = article.title;
 
     // Article content container
