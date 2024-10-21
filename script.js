@@ -10,8 +10,7 @@ function createArticleElement(article) {
 
     // Article image
     const img = document.createElement('img');
-    img.src = article.urlToImage || 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwingandaprayer.live%2F2018%2F07%2F16%2Fits-a-no-photo-day%2F&psig=AOvVaw3hqPSKQ2oTUCrcSs_6XFYF&ust=1729576091284000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiT3pbjnokDFQAAAAAdAAAAABAE';
-    img.alt = article.title;
+    img.src = article.urlToImage || 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fvectors%2Fno-image-available.html&psig=AOvVaw0nYY1wlu0uVav0PJRHSkkF&ust=1729576793775000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDAjuXlnokDFQAAAAAdAAAAABAJ';
 
     // Article content container
     const contentDiv = document.createElement('div');
